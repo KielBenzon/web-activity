@@ -1,0 +1,126 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    color: black;
+  }
+  p{
+    padding-top: 45px;
+    font-family:'Roboto Mono',serif;
+    src: url(https://fonts.google.com/specimen/Roboto+Mono);
+    text-align: justify;
+    font-size: 19px;
+  }
+  
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   header h1 {
+    margin: 0;
+    font-size: 2em;
+   }
+  
+  nav ul {
+    list-style-type: none;
+    display: block;
+    position:relative;
+    font-size: 20px;
+    justify-content: space-around;
+    
+  }
+  
+  nav li {
+    margin: 10px;
+    padding-top:10px;
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+   background: rgba(255,255,255,0.05);
+   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+   border-top: 1px solid rgba(255,255,255,0.01);
+   border-bottom: 1px solid rgba(255,255,255,0.01);
+   border-radius: 30px;
+    z-index:  1;
+    font-weight: 400;
+    letter-spacing: none;
+    overflow: hidden;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+    scroll-behavior: smooth;
+}
+ul li.active a{
+    background-color: rgb(193, 194, 155);
+    color:rgb(255, 255, 255);
+
+}
+
+ul li:hover a
+{
+    letter-spacing: 5px;
+}
+
+
+  /* Banner Styles */
+  #banner {
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  #banner img {
+    width: 2000px;
+    height: 300px;
+    padding-top: 50px;
+    
+  }
+    
+  
+  
+  /* Main Content Styles */
+  #main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 125px;
+  }
+  
+  article {
+    margin: 65px;
+    padding: 15px;
+    background-color: #EDE9D5;
+    border: 1px solid #ccc;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  article li {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  article li:hover {
+    background-color: #a98467;
+    transition: 0.2s;
+    
+  }
+  #headings{
+    padding-left: 43%;
+  }
+  
